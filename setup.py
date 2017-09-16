@@ -6,16 +6,16 @@ with open('README.md') as f:
 with open('LICENSE') as f:
     license = f.read()
 
-setup(name='vestibulum',
+setup(name='pygram',
       version='0.1',
       description='Static gallery generator',
       long_description=readme,
-      url='https://github.com/malcodeman/Vestibulum',
+      url='https://github.com/malcodeman/Pygram',
       author='malcodeman',
       license=license,
-      py_modules=['vestibulum/main'],
+      py_modules=['pygram/main'],
       packages=find_packages(exclude=('tests', 'docs')),
       entry_points = {
-        'console_scripts': ['vestibulum = vestibulum.main:main'],
+        'console_scripts': ['pygram = pygram.main:main'],
       },
       zip_safe=False)
