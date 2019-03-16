@@ -1,3 +1,4 @@
 /build
 /dist
-/pygram.egg-info
+*.pyc
+/*.egg-info
